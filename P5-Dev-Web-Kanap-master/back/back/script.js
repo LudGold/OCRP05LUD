@@ -56,11 +56,11 @@ var results = [{
 	altTxt : "canapé bleu"
 }]
 
-let itemsDOM = document.getElementById("items");
+l
 //itemsDOM.innerHTML = "<h1>Titre 1</h1><p>Contenu 1</p>"
 
 for(let i = 0; i < results.length; i++) {
-	itemsDOM.innerHTML += <h1>${results[i].name}</h1><p>${results[i].description}</p>" 
+	itemsDOM.innerHTML += <h1>${results[i].name}</h1><p>${results[i].description}</p>"} 
 }
 
 
