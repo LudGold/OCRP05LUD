@@ -1,6 +1,6 @@
-const { getAllProducts } = require("./controllers/product");
+//const { getAllProducts } = require("./controllers/product");
 
-Loïse Fenoll
+//Loïse Fenoll
 /*<div id="items">
 <!--
 <h1>title</h1>
@@ -38,8 +38,8 @@ product : {
 }*/
 
 //GET / --> 
-var results = [{
-	colors : ["blue", 'red'],
+//var results = [{
+	/*colors : ["blue", 'red'],
 	id : '1234',
 	name : "canapé joli",
 	price: 14.67,
@@ -74,7 +74,7 @@ for(let i = 0; i < results.length; i++) {
 </div>
 */
 //get / => 
-const products = []
+/*const products = []
 let itemsDOM = document.getElementById("items");
 
 console.log(getAllProducts);
